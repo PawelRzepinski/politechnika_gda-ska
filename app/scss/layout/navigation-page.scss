@@ -31,40 +31,52 @@
       background: $blue01;
       border-radius: 0 20px 0 0;
       overflow: hidden;
-      z-index: 2;
     }
 
     &-item {
-      @include flex-center-center;
-      color: $white;
-      padding: 16px;
       border-left: 1px solid $white72;
-      min-width: 65px;
       @include media-breakpoint-up(lg) {
         border: none;
-        min-width: 140px;
-        height: 100%;
       }
 
-      &:hover {
-        background: darken($blue01, 5%);
-        text-decoration: none;
-      }
-
-      i {
-        font-size: 25px;
+      &:last-child {
+        border-right: 1px solid $white72;
         @include media-breakpoint-up(lg) {
-          font-size: 30px;
+          border: none;
         }
       }
 
-      p {
-        margin: 0;
-        display: none;
-        font-size: 14px;
+      &-link {
+        @include flex-center-center;
+        color: $white;
+        padding: 16px;
+        min-width: 65px;
         @include media-breakpoint-up(lg) {
-          display: block;
-          margin-left: 10px;
+          border: none;
+          min-width: 140px;
+          height: 100%;
+        }
+
+        &:hover {
+          background: darken($blue01, 5%);
+          text-decoration: none;
+        }
+
+        i {
+          font-size: 25px;
+          @include media-breakpoint-up(lg) {
+            font-size: 30px;
+          }
+        }
+
+        p {
+          margin: 0;
+          display: none;
+          font-size: 14px;
+          @include media-breakpoint-up(lg) {
+            display: block;
+            margin-left: 10px;
+          }
         }
       }
     }

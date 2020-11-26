@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c3ec8f-a4db-4d66-9af1-46df8b5592cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/base/variables-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/burger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/logo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/components/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/navigation-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scss/layout/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/components/submenu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/images/logo_white.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/lib/a-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/lib/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/base/variables-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/base/variables-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/logo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/components/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/profile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/navigation-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/navigation-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/layout/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +74,7 @@
       <workItem from="1602838035201" duration="70000" />
       <workItem from="1606234547889" duration="7555000" />
       <workItem from="1606292824571" duration="25270000" />
-      <workItem from="1606378952413" duration="6043000" />
+      <workItem from="1606378952413" duration="13402000" />
     </task>
     <servers />
   </component>

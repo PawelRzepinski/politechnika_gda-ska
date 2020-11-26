@@ -8,7 +8,7 @@
     background: linear-gradient(90deg, rgba(0,46,113,1) 0%, rgba(21,84,156,1) 100%);
     border: 1px solid $white;
     border-right: none;
-    padding: 20px 50px;
+    padding: 20px 55px 20px 36px;
   }
 
   &__img {
@@ -40,6 +40,11 @@
     font-weight: $font-regular;
     @include media-breakpoint-up(lg) {
       font-size: 14px;
+    }
+
+    &:hover {
+      color: $white72;
+      text-decoration: none;
     }
   }
 }

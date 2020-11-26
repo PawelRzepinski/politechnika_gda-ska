@@ -1,5 +1,4 @@
 .header {
-  position: relative;
   background-color: $blue01;
 
   &__top-wrapper {
@@ -11,6 +10,9 @@
     align-items: center;
     justify-content: space-between;
     padding: 16px;
+    @include media-breakpoint-up(lg) {
+      padding: 20px 16px;
+    }
   }
 
   &__bottom {
@@ -19,13 +21,13 @@
     .header__navigations {
       width: 100%;
       @include media-breakpoint-up(lg) {
-        width: fit-content; //????????
+        width: fit-content;
       }
     }
 
     .profile-wrapper {
       position: relative;
-      padding: 25px 0 25px 50px;
+      padding: 25px 0 25px 36px;
       background-color: $blue02;
       z-index: 1;
 

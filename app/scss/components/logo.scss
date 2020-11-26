@@ -1,6 +1,9 @@
 .logo {
   display: block;
   max-width: 150px;
+  @include media-breakpoint-up(lg) {
+    max-width: 215px;
+  }
 
   img {
     width: 100%;

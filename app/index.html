@@ -41,11 +41,18 @@
                             <div class="header__navigations">
                                 <nav class="header__nav">
                                     <ul class="header__menu">
-                                        <li><a class="header__menu-item" href="">Strona główna</a></li>
-                                        <li><a class="header__menu-item" href="">Pracownicy</a></li>
-                                        <li><a class="header__menu-item" href="">Biznes</a></li>
-                                        <li><a class="header__menu-item" href="">Uczelnia</a></li>
-                                        <li><a class="header__menu-item" href="">Absolwenci</a></li>
+                                        <li class="header__menu-item"><a class="header__menu-item-link" href="">Strona główna</a></li>
+                                        <li class="header__menu-item"><a class="header__menu-item-link" href="">Pracownicy</a></li>
+                                        <li class="header__menu-item"><a class="header__menu-item-link" href="">Biznes</a></li>
+                                        <li class="header__menu-item header__menu-item--parent">
+                                            <a class="header__menu-item-link" href="">Uczelnia</a>
+                                            <ul class="header__submenu">
+                                                <li class="header__submenu-item"><a class="header__submenu-item-link" href="">Uczelnia 2</a></li>
+                                                <li class="header__submenu-item"><a class="header__submenu-item-link" href="">Uczelnia 3</a></li>
+                                                <li class="header__submenu-item"><a class="header__submenu-item-link" href="">Uczelnia 4</a></li>
+                                                <li class="header__submenu-item"><a class="header__submenu-item-link" href="">Uczelnia 5</a></li>
+                                            </ul>
+                                        <li class="header__menu-item"><a class="header__menu-item-link" href="">Absolwenci</a></li>
                                     </ul>
                                     <div class="profile profile--mobile d-lg-none">
                                         <img class="profile__img" src="./images/avatar.jpg" alt="Paweł Rzepiński">
@@ -59,26 +66,26 @@
                                 </nav>
                                 <nav class="header__page-nav">
                                     <ul class="header__page-menu">
-                                        <li>
-                                            <a class="header__page-menu-item" href="">
+                                        <li class="header__page-menu-item">
+                                            <a class="header__page-menu-item-link" href="">
                                                 <i class="fas fa-graduation-cap"></i>
                                                 <p>Start</p>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="header__page-menu-item" href="">
+                                        <li class="header__page-menu-item">
+                                            <a class="header__page-menu-item-link" href="">
                                                 <i class="far fa-file-alt"></i>
                                                 <p>Studia</p>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="header__page-menu-item" href="">
+                                        <li class="header__page-menu-item">
+                                            <a class="header__page-menu-item-link" href="">
                                                 <i class="fas fa-medal"></i>
                                                 <p>III Stopień</p>
                                             </a>
                                         </li>
-                                        <li>
-                                            <a class="header__page-menu-item" href="">
+                                        <li class="header__page-menu-item">
+                                            <a class="header__page-menu-item-link" href="">
                                                 <i class="fas fa-dollar-sign"></i>
                                                 <p>Płatności</p>
                                             </a>
