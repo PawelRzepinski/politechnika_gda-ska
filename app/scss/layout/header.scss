@@ -1,0 +1,50 @@
+.header {
+  position: relative;
+  background-color: $blue01;
+
+  &__top-wrapper {
+    background-color: $white;
+  }
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+  }
+
+  &__bottom {
+    display: flex;
+
+    .header__navigations {
+      width: 100%;
+      @include media-breakpoint-up(lg) {
+        width: fit-content; //????????
+      }
+    }
+
+    .profile-wrapper {
+      position: relative;
+      padding: 25px 0 25px 50px;
+      background-color: $blue02;
+      z-index: 1;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100vw;
+        background-color: $blue02;
+        z-index: -1;
+      }
+
+      &__title {
+        color: $white;
+        font-size: 15px;
+        font-weight: $font-bold;
+      }
+    }
+  }
+}

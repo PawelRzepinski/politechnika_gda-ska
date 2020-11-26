@@ -1,3 +1,29 @@
-.testing {
-  width: percentage(2/7);
-}
+@import "node_modules/bootstrap/scss/functions";
+
+@import "base/variables-main";
+@import "base/variables-bootstrap";
+
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/root";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/utilities";
+
+
+///   Abstracts
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@import "base/mixins";
+@import "base/html-body";
+
+///   Components
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@import "components/logo";
+@import "components/burger";
+@import "components/button";
+@import "components/profile";
+
+///   Layout
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/navigation-page";

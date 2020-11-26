@@ -1,0 +1,45 @@
+.profile {
+  @include flex-center-center;
+  padding: 25px 0;
+  width: 100%;
+  border-top: 1px solid $white72;
+  line-height: 140%;
+  @include media-breakpoint-up(lg) {
+    background: linear-gradient(90deg, rgba(0,46,113,1) 0%, rgba(21,84,156,1) 100%);
+    border: 1px solid $white;
+    border-right: none;
+    padding: 20px 50px;
+  }
+
+  &__img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+
+  &__name {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: $font-bold;
+    color: $white;
+    white-space: nowrap;
+    @include media-breakpoint-up(lg) {
+      font-size: 15px;
+      margin: 0;
+    }
+  }
+
+  &__phone,
+  &__email {
+    display: block;
+    color: $white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: $font-regular;
+    @include media-breakpoint-up(lg) {
+      font-size: 14px;
+    }
+  }
+}
