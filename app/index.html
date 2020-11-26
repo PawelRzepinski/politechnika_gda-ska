@@ -8,8 +8,9 @@
     <!--build:css css/styles.min.css-->
     <link rel="stylesheet" href="css/styles.css">
     <!--endbuild-->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/47bfe818c0.js" crossorigin="anonymous"></script>
 </head>
 
@@ -111,17 +112,50 @@
         </div>
     </header>
 
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6">
-                <div style="width: 100%; height: 500px; background-color: red"></div>
-            </div>
-            <div class="col-4 offset-md-2">
-                <div style="width: 100%; height: 500px; background-color: green"></div>
+    <main class="page__content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <section class="section">
+                        <header class="section__header">
+                            <h1 class="section__title section__title--main"><span>Tytuł</span> pracy badawczej</h1>
+                            <p class="section__subtitle">szczegóły</p>
+                        </header>
+                        <div class="section__content">
+                            <div class="section__info">
+                                <h3 class="section__info-key">nr rekordu</h3>
+                                <p class="section__info-value">748</p>
+                            </div>
+                            <div class="section__info">
+                                <h3 class="section__info-key">Status</h3>
+                                <p class="section__info-value">Zatwierdzony</p>
+                            </div>
+                            <div class="section__info">
+                                <h3 class="section__info-key">Zgłaszający</h3>
+                                <p class="section__info-value">Jan Kowalski</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <header class="section__header">
+                            <h2 class="section__title">Ogólne</h2>
+                        </header>
+                        <div class="section__content">
+                            <div class="section__info">
+                                <h3 class="section__info-key">Forum publikacji</h3>
+                                <p class="section__info-value">Użycie niekomercyjne - Bez utworów niezależnych (CC-BY-NC-ND) (3.0)</p>
+                            </div>
+                            <div class="section__info">
+                                <h3 class="section__info-key">Rodzaj pracy N-B</h3>
+                                <p class="section__info-value">Artykuł w czasopiśmie / W wersji drukowanej (również elektronicznej)</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
         </div>
-    </div>
+    </main>
+
 
 <!--build:js js/main.min.js -->
 <script src="js/lib/navigation.js"></script>

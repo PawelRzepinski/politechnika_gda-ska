@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c3ec8f-a4db-4d66-9af1-46df8b5592cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/scss/components/submenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/components/section.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/base/variables-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/base/variables-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/logo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/logo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/components/profile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/components/profile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/layout/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/navigation-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/navigation-page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/layout/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/layout/navigation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +70,7 @@
       <workItem from="1602838035201" duration="70000" />
       <workItem from="1606234547889" duration="7555000" />
       <workItem from="1606292824571" duration="25270000" />
-      <workItem from="1606378952413" duration="13402000" />
+      <workItem from="1606378952413" duration="19588000" />
     </task>
     <servers />
   </component>
@@ -86,6 +82,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="540" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606244476634" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606408117245">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606408117245" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606383747211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
