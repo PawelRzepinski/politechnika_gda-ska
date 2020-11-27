@@ -5,6 +5,12 @@
     max-width: 215px;
   }
 
+  &--header {
+    @include media-breakpoint-up(lg) {
+      padding-left: 20px;
+    }
+  }
+
   img {
     width: 100%;
     height: auto;

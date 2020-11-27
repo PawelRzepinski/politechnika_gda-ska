@@ -1,0 +1,21 @@
+.footer {
+  background-color: $blue03;
+  height: 270px;
+  margin-top: 80px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__link {
+    color: $white;
+    text-decoration: underline;
+    margin: 0;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

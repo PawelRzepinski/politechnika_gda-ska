@@ -73,6 +73,7 @@
           margin: 0;
           display: none;
           font-size: 14px;
+          font-weight: $font-bold;
           @include media-breakpoint-up(lg) {
             display: block;
             margin-left: 10px;

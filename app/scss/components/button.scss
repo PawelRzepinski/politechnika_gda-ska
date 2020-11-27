@@ -35,3 +35,17 @@
     transform: translate(-50%, -50%) rotate(-45deg);
   }
 }
+
+
+.button--footer {
+  background: none;
+  border: none;
+  color: $white;
+  text-decoration: underline;
+  font-size: 14px;
+  padding: 8px 0;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
