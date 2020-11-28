@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/47bfe818c0.js" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
@@ -161,7 +163,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="footer__content">
-                        <button class="button button--footer">Kontakt</button>
+                        <button id="modal-open" class="button button--footer">Kontakt</button>
                         <a href="" class="logo">
                             <img src="images/logo_white.png" alt="Politechnika Gdańska">
                         </a>
@@ -170,6 +172,48 @@
             </div>
         </div>
     </footer>
+
+    <section class="modal">
+        <main class="modal__box-wrapper">
+            <button id="modal-close" class="button button--modal-close"></button>
+            <div class="modal__box">
+                <div class="modal__content-wrapper">
+                    <h2 class="modal__title">Kontakt</h2>
+                    <div class="modal__content">
+                        <div class="modal__content-set">
+                            <h3 class="modal__content-set-title">Adres</h3>
+                            <p class="modal__content-info">Politechnika Gdańska</p>
+                            <p class="modal__content-info">ul. Gabriela Narutowicza 11/12</p>
+                            <p class="modal__content-info">80-233 Gdańsk</p>
+                            <p class="modal__content-info">Polska</p>
+                        </div>
+                        <div class="modal__content-set">
+                            <h3 class="modal__content-set-title">Informacja o rekrutacji</h3>
+                            <p class="modal__content-info">pon.–pt. 7.30–15.30</p>
+                            <a class="modal__content-info" href="tel:+48583486700">tel.: +48 58 348 67 00</a>
+                            <a class="modal__content-info"
+                               href="https://pg.edu.pl/rekrutacja">https://pg.edu.pl/rekrutacja</a>
+                            <a class="modal__content-info" href="mailto:rekrutacja@pg.edu.pl">rekrutacja@pg.edu.pl</a>
+                        </div>
+                        <div class="modal__content-set">
+                            <h3 class="modal__content-set-title">Kontakt dla mediów</h3>
+                            <a class="modal__content-info" href="tel:+48583472999">tel.: +48 58 347 29 99</a>
+                            <a class="modal__content-info"
+                               href="mailto:biuro.prasowe@pg.edu.pl">biuro.prasowe@pg.edu.pl</a>
+                        </div>
+                        <div class="modal__content-set">
+                            <h3 class="modal__content-set-title">Webmaster</h3>
+                            <a class="modal__content-info" href="tel:+48583486337">tel.: +48 58 348 63 37</a>
+                            <a class="modal__content-info" href="mailto:webmaster@pg.edu.pl">webmaster@pg.edu.pl</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal__map">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </main>
+    </section>
 
 
 <!--build:js js/main.min.js -->

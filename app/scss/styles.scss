@@ -1,3 +1,5 @@
+///   Bootstrap & custom variables
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 @import "node_modules/bootstrap/scss/functions";
 
 @import "base/variables-main";
@@ -8,6 +10,7 @@
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/utilities";
+
 
 
 ///   Abstracts
@@ -23,6 +26,7 @@
 @import "components/profile";
 @import "components/submenu";
 @import "components/section";
+@import "components/modal";
 
 ///   Layout
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

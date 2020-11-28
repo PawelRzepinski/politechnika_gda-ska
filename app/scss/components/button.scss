@@ -36,6 +36,20 @@
   }
 }
 
+.button--modal-close {
+  @extend .button--close;
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: initial;
+  right: 0;
+  border-radius: 50%;
+  background-color: $blue01;
+
+  &:hover {
+    background-color: lighten($blue01, 10%);
+  }
+}
 
 .button--footer {
   background: none;
