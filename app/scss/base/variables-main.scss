@@ -18,7 +18,7 @@ $black60:     rgba(#000000, .6);
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///   Font system
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-$fontFamilyBase:      'Ubuntu', sans-serif;
+//$fontFamilyBase:      'Ubuntu', sans-serif;
 
 $font-regular:    400;
 $font-bold:       700;
@@ -35,8 +35,8 @@ $grid-breakpoints: (
         xl: 1400px
 ) !default;
 
-@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
-@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+//@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+//@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
 
 
 $container-max-widths: (
@@ -46,7 +46,7 @@ $container-max-widths: (
         xl: 1004px
 ) !default;
 
-@include _assert-ascending($container-max-widths, "$container-max-widths");
+//@include _assert-ascending($container-max-widths, "$container-max-widths");
 
 
 // Grid columns
